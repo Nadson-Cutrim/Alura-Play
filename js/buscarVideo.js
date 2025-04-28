@@ -23,13 +23,8 @@ async function buscarVideo(evento) {
     )
   );
   if (busca.length == 0) {
-    lista.innerHTML = `<h2 class="mensagem__titulo" style="color: red;">Não existe videos com esse termo 😭😭😭</h2>`;
-    lista.style = `display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 100%;
-    height: 80vh;
-    `;
+    lista.innerHTML = `<h2 class="mensagem__titulo">Não existe videos com esse termo 😭😭😭</h2>`;
+    
   }
 }
 

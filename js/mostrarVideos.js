@@ -32,13 +32,7 @@ async function listaVideos() {
       )
     );
   } catch {
-    lista.innerHTML = `<h2 class="mensagem__titulo" style="color: #ff0000; font-size: 2rem;"> Não foi possivel carregar a lista de videos.</h2>`;
-    lista.style = `display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 100%;
-    height: 80vh;
-    `;
+    lista.innerHTML = `<h2 class="mensagem__titulo"> Não foi possivel carregar a lista de videos. 😪</h2>`;
   }
 }
 
